@@ -114,17 +114,20 @@ namespace TourName
 
 2. Камера игрока
    На камеру игрока необходимо добавить компонент TourverseToolkit.PlayerCamera
+   
    ![](Res/Pasted%20image%2020260115155136.png)<br>
    
-3. Внутри точки входа необходимо вызвать в методе Start методы из TourverseToolkit
+4. Внутри точки входа необходимо вызвать в методе Start методы из TourverseToolkit
    TourController.TourStart(PlayerCamera);
-   ![](Res/Pasted%20image%2020260115154809.png)
-4. Отслеживание успешного запуска
+   
+   ![](Res/Pasted%20image%2020260115154809.png)<br>
+6. Отслеживание успешного запуска
    По дефолту достаточно вызвать спустя 30 секунд TourController.CheckPoint(int) - указав контрольную точку 1
-   ![](Res/Pasted%20image%2020260115155514.png)
+   
+   ![](Res/Pasted%20image%2020260115155514.png)<br>
    Так же можно сделать несколько контрольных точек, например на квесты, 1квест = 1 контрольная точка
 
-5. Пространство имен
+8. Пространство имен
    Каждый класс должен иметь пространство имен, которое соответствует названию тура
 ```c#
 namespace TourName
@@ -133,19 +136,23 @@ namespace TourName
 ```
 
 Для удобства можно назначить Root Namespace поле в AssemblyDefinition
-![](Res/Pasted%20image%2020260115152958.png)
+
+![](Res/Pasted%20image%2020260115152958.png)<br>
 **Имейте ввиду, что назначение этого поля не означает выставление namespace во всех уже существующих классах
 
 3. Генерация файлов
    По завершению разработки тура необходимо сгенерировать Addressables файлы. Tourverse --> Settinngs --> Generate
-   ![](Res/Pasted%20image%2020260115153159.png)
+   
+   ![](Res/Pasted%20image%2020260115153159.png)<br>
    В Addressables Groups должно получиться так:
-   ![](Res/Pasted%20image%2020260115153319.png)
+   
+   ![](Res/Pasted%20image%2020260115153319.png)<br>
 **Наличие Labels обязательно
 
-4. Сборка файлов в архив
+5. Сборка файлов в архив
    По пути [ProjectName/ServerData] - хранятся собранные туры. Собираем их в .7z и передаем публицисту.
-   ![](Res/Pasted%20image%2020260115153548.png)
+   
+   ![](Res/Pasted%20image%2020260115153548.png)<br>
    
    5. link.xml
    Вместе с .7z тура, нужно передать файл [ProjectName/Assets/HybridCLRGenerate/link.xml]
