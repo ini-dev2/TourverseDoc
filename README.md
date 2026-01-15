@@ -45,21 +45,22 @@
 - [Addressables package | Addressables | 2.7.6](https://docs.unity3d.com/Packages/com.unity.addressables@2.7/manual/index.html)
 
 1. Меняем платформу проекта на Android
-![](Res/Pasted%20image%2020260115150051.png)
-![](Res/Pasted%20image%2020260115150207.png)<br>
+
+   ![](Res/Pasted%20image%2020260115150051.png)<br>
+   ![](Res/Pasted%20image%2020260115150207.png)<br>
    
-2. Настраиваем конфигурацию API Compatibility Level на .NET Framework
+3. Настраиваем конфигурацию API Compatibility Level на .NET Framework
    ![](Res/Pasted%20image%2020260115145900.png)<br>
    
-3. Если не загружен пакет HybridCLR, необходимо загрузить.  После установки в поле Installed Version должно быть текущая установленная
+4. Если не загружен пакет HybridCLR, необходимо загрузить.  После установки в поле Installed Version должно быть текущая установленная
    ![](Res/Pasted%20image%2020260115150331.png)
    ![](Res/Pasted%20image%2020260115150357.png)
    
-4. Для работы hot-кода в папке Scripts нужно создать Assembly Definition с названием, выданным от платформы. И добавить его в настройки HybridCLR
+5. Для работы hot-кода в папке Scripts нужно создать Assembly Definition с названием, выданным от платформы. И добавить его в настройки HybridCLR
    ![](Res/Pasted%20image%2020260115150904.png)
    ![](Res/Pasted%20image%2020260115151212.png)
    
-5. Для сборки проекта в настройках TourverseToolkit назначаем поля
+6. Для сборки проекта в настройках TourverseToolkit назначаем поля
    Tour Name - название тура, переданное от платформы (Обязательный)
    Tour Scene - asset игровой сцены (Обязательный)
    Tour Assembly - asset Assembly Definition скриптов (Обязательный)
