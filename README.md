@@ -109,7 +109,7 @@ namespace TourName
 
 2. Камера игрока
    На камеру игрока необходимо добавить компонент TourverseToolkit.PlayerCamera
-   ![](Res/Pasted%20image%2020260115155136.png)
+   ![](Res/Pasted%20image%2020260115155136.png)<br>
    
 3. Внутри точки входа необходимо вызвать в методе Start методы из TourverseToolkit
    TourController.TourStart(PlayerCamera);
