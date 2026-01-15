@@ -44,7 +44,7 @@
 - https://github.com/focus-creative-games/hybridclr_unity.git#v8.7.0
 - [Addressables package | Addressables | 2.7.6](https://docs.unity3d.com/Packages/com.unity.addressables@2.7/manual/index.html)
 
-1. Меняем платформу проекта на Android
+2. Меняем платформу проекта на Android
 
    ![](Res/Pasted%20image%2020260115150051.png)<br>
    ![](Res/Pasted%20image%2020260115150207.png)<br>
