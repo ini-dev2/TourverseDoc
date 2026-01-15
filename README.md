@@ -46,10 +46,10 @@
 
 1. Меняем платформу проекта на Android
    ![](Res/Pasted%20image%2020260115150051.png)
-   ![](Res/Pasted%20image%2020260115150207.png)
+   ![](Res/Pasted%20image%2020260115150207.png)<br>
    
 2. Настраиваем конфигурацию API Compatibility Level на .NET Framework
-   ![](Res/Pasted%20image%2020260115145900.png)
+   ![](Res/Pasted%20image%2020260115145900.png)<br>
    
 3. Если не загружен пакет HybridCLR, необходимо загрузить.  После установки в поле Installed Version должно быть текущая установленная
    ![](Res/Pasted%20image%2020260115150331.png)
