@@ -45,8 +45,8 @@
 - [Addressables package | Addressables | 2.7.6](https://docs.unity3d.com/Packages/com.unity.addressables@2.7/manual/index.html)
 
 1. Меняем платформу проекта на Android
-   ![](Res/Pasted%20image%2020260115150051.png)
-   ![](Res/Pasted%20image%2020260115150207.png)<br>
+![](Res/Pasted%20image%2020260115150051.png)
+![](Res/Pasted%20image%2020260115150207.png)<br>
    
 2. Настраиваем конфигурацию API Compatibility Level на .NET Framework
    ![](Res/Pasted%20image%2020260115145900.png)<br>
