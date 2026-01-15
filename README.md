@@ -50,22 +50,26 @@
    ![](Res/Pasted%20image%2020260115150207.png)<br>
    
 3. Настраиваем конфигурацию API Compatibility Level на .NET Framework
+
    ![](Res/Pasted%20image%2020260115145900.png)<br>
    
-4. Если не загружен пакет HybridCLR, необходимо загрузить.  После установки в поле Installed Version должно быть текущая установленная
-   ![](Res/Pasted%20image%2020260115150331.png)
+5. Если не загружен пакет HybridCLR, необходимо загрузить.  После установки в поле Installed Version должно быть текущая установленная
+
+   ![](Res/Pasted%20image%2020260115150331.png)<br>
    ![](Res/Pasted%20image%2020260115150357.png)
    
-5. Для работы hot-кода в папке Scripts нужно создать Assembly Definition с названием, выданным от платформы. И добавить его в настройки HybridCLR
-   ![](Res/Pasted%20image%2020260115150904.png)
+7. Для работы hot-кода в папке Scripts нужно создать Assembly Definition с названием, выданным от платформы. И добавить его в настройки HybridCLR
+
+   ![](Res/Pasted%20image%2020260115150904.png)<br>
    ![](Res/Pasted%20image%2020260115151212.png)
    
-6. Для сборки проекта в настройках TourverseToolkit назначаем поля
+9. Для сборки проекта в настройках TourverseToolkit назначаем поля
    Tour Name - название тура, переданное от платформы (Обязательный)
    Tour Scene - asset игровой сцены (Обязательный)
    Tour Assembly - asset Assembly Definition скриптов (Обязательный)
    Tour Addressables Uuid - ссылка на удаленные ресурсы тура (Опциональный), если его нет назначается базовый {AddressablesUuid}
-   ![](Res/Pasted%20image%2020260115151424.png)
+   
+   ![](Res/Pasted%20image%2020260115151424.png)<br>
    ![](Res/Pasted%20image%2020260115151434.png)
    
 ### 3. Настройка папок и ресурсов
