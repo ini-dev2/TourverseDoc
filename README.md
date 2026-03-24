@@ -154,8 +154,13 @@ namespace TourName
    
    ![](Res/Pasted%20image%2020260115153548.png)<br>
    
-8. link.xml
+8. manifest.json
+	Вместе с ресурсами необходимо передать manifest.json лежит в папке "Project"/Packages
+   
+9. link.xml
    Вместе с .7z тура, нужно передать файл [ProjectName/Assets/HybridCLRGenerate/link.xml]
+   HybridCLR --> Generate --> linkXML
+
    Пример:
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
