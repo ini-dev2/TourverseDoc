@@ -47,6 +47,7 @@
 2. Меняем платформу проекта на Android
 
    ![](Res/Pasted%20image%2020260115150051.png)<br>
+   
    ![](Res/Pasted%20image%2020260115150207.png)<br>
    
 3. Настраиваем конфигурацию API Compatibility Level на .NET Framework
@@ -56,12 +57,14 @@
 5. Если не загружен пакет HybridCLR, необходимо загрузить.  После установки в поле Installed Version должно быть текущая установленная
 
    ![](Res/Pasted%20image%2020260115150331.png)<br>
-   ![](Res/Pasted%20image%2020260115150357.png)
+   
+   ![](Res/Pasted%20image%2020260115150357.png)<br>
    
 7. Для работы hot-кода в папке Scripts нужно создать Assembly Definition с названием, выданным от платформы. И добавить его в настройки HybridCLR
 
    ![](Res/Pasted%20image%2020260115150904.png)<br>
-   ![](Res/Pasted%20image%2020260115151212.png)
+   
+   ![](Res/Pasted%20image%2020260115151212.png)<br>
    
 9. Для сборки проекта в настройках TourverseToolkit назначаем поля
    Tour Name - название тура, переданное от платформы (Обязательный)
@@ -70,7 +73,8 @@
    Tour Addressables Uuid - ссылка на удаленные ресурсы тура (Опциональный), если его нет назначается базовый {AddressablesUuid}
    
    ![](Res/Pasted%20image%2020260115151424.png)<br>
-   ![](Res/Pasted%20image%2020260115151434.png)
+   
+   ![](Res/Pasted%20image%2020260115151434.png)<br>
    
 ### 3. Настройка папок и ресурсов
 1. Структура
@@ -113,16 +117,16 @@ namespace TourName
 }
 ```
 
-2. Камера игрока
+2. Камера игрока<br>
    На камеру игрока необходимо добавить компонент TourverseToolkit.PlayerCamera
    
    ![](Res/Pasted%20image%2020260115155136.png)<br>
    
-3. Внутри точки входа необходимо вызвать в методе Start методы из TourverseToolkit
+3. Внутри точки входа необходимо вызвать в методе Start методы из TourverseToolkit<br>
    TourController.TourStart(PlayerCamera);
    
    ![](Res/Pasted%20image%2020260115154809.png)<br>
-4. Отслеживание успешного запуска
+4. Отслеживание успешного запуска<br>
    По дефолту достаточно вызвать спустя 30 секунд TourController.CheckPoint(int) - указав контрольную точку 1
    
    ![](Res/Pasted%20image%2020260115155514.png)<br>
