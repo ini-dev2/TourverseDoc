@@ -130,6 +130,8 @@ namespace TourName
    По дефолту достаточно вызвать спустя 30 секунд TourController.CheckPoint(int) - указав контрольную точку 1
    
    ![](Res/Pasted%20image%2020260115155514.png)<br>
+   <img width="478" height="379" alt="image" src="https://github.com/user-attachments/assets/36c9027f-eb56-4314-8608-95fb34617def" />
+
    Так же можно сделать несколько контрольных точек, например на квесты, 1квест = 1 контрольная точка
 
 5. Пространство имен<br>
